@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "menear.modernui.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [],
+  "client": [
+    "AbstractButtonMixin",
+    "AbstractWidgetMixin",
+    "GlBackendMixin",
+    "LogoRendererMixin",
+    "ScreenMixin",
+    "SplashRendererMixin",
+    "SpriteIconButtonMixin",
+    "TitleScreenMixin",
+    "VulkanBackendMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

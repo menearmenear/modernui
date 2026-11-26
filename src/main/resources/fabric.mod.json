@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "modernui",
+  "version": "${version}",
+  "name": "Modern UI",
+  "description": "A minimal, glassy, transparent title screen.",
+  "authors": ["Near"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["menear.modernui.ModernUiClient"]
+  },
+  "mixins": [
+    { "config": "modernui.mixins.json", "environment": "client" }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
